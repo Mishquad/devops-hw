@@ -1,0 +1,15 @@
+FROM jupyterhub/jupyterhub:3.1.0
+
+RUN apt update && apt -y install python3-dev git && apt-get clean && rm -rf /var/lib/apt/lists/* \
+    && pip install numpy==1.25.0 pandas==2.1.0 scikit-learn==1.1.0
+
+EXPOSE 8000
+
+RUN useradd -ms /bin/bash jupyt
+USER jupyt
+
+WORKDIR /jupyterhub
+
+ENTRYPOINT ["jupyterhub", "--log-level=DEBUG"]
+
+VOLUME /jupyterhub
