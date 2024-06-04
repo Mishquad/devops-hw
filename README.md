@@ -1,6 +1,14 @@
 # devops-hw
 Все файлы лежат в папке src
 
+## Описание compose файла 
+Файл описывает три сервиса: init, jupyterhub, и db. 
+- init в данном случае - это контейнер Busybox, который выполняет команду echo "Initialization complete" при запуске. Он зависит от сервисов db и jupyterhub.
+- jupyterhub - это сервис, который собирается из Dockerfile в текущем контексте сборки. Он монтирует volume ./jupyterhub_data в /srv/jupyterhub внутри контейнера и устанавливает переменные окружения для подключения к базе данных PostgreSQL.
+- db - это контейнер PostgreSQL версии 13, который также устанавливает переменные окружения для настройки базы данных PostgreSQL.
+Каждый сервис также имеет healthcheck.
+
+
 ## Скрины 
 ![folder](./src/fldr.png)
 ![run](./src/run.png)
