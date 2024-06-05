@@ -18,10 +18,8 @@ services:
       - "${JUPYTERHUB_PORT}:8000"
     volumes:
       - ./jupyterhub_data:/srv/jupyterhub
-    environment:
-      - POSTGRES_USER=${POSTGRES_USER}
-      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
-      - POSTGRES_DB=${POSTGRES_DB}
+    env_file:
+      - .env
     depends_on:
       - db
     healthcheck:
@@ -33,10 +31,8 @@ services:
   db:
     image: postgres:13
     container_name: db_service
-    environment:
-      - POSTGRES_USER=${POSTGRES_USER}
-      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
-      - POSTGRES_DB=${POSTGRES_DB}
+    env_file:
+      - .env
     volumes:
       - db_data:/var/lib/postgresql/data
     healthcheck:
