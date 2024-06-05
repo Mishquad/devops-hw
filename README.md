@@ -8,8 +8,8 @@
 ![6](./screens/sc6.png)
 ![7](./screens/sc7.png)
 ![8](./screens/sc8.png)
-![9](./screens/sc9.png)
+![9](./screens/sc11.png)
 ![10](./screens/sc10.png)
-![11](./screens/sc11.png)
+![11](./screens/sc9.png)
 ![12](./screens/sc12.png)
 ## Вопросы
