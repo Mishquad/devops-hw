@@ -1,4 +1,4 @@
 # devops-hw
 ## Скрины
-![1](./screens/1.png)
+![1](./screens/sc1.png)
 ## Вопросы
