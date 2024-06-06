@@ -22,7 +22,7 @@ spec:
             requests:
               cpu: 100m
               memory: 128Mi
-          imagePullPolicy: "IfNotPresent"
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5432
           env:
