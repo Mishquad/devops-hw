@@ -9,8 +9,12 @@
 ![7](./screens/sc7.png)
 ![9](./screens/sc11.png)
 ![10](./screens/sc10.png)
-![11](./screens/sc9.png)
+![123](./screens/sc13.png)
+![122](./screens/sc14.png)
+![111](./screens/sc15.png)
 ![12](./screens/sc12.png)
+![1221](./screens/scr16.png)
+![11](./screens/sc9.png)
 ## Вопросы
 __*Важен ли порядок выполнения этих манифестов? Почему?*__
 
