@@ -15,7 +15,7 @@
 ![12](./screens/sc12.png)
 ![1221](./screens/scr16.png)
 ![11](./screens/sc9.png)
-![ch](./screens/schecks.png)
+
 ## Вопросы
 __*Важен ли порядок выполнения этих манифестов? Почему?*__
 
