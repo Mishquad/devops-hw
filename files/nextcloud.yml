@@ -19,7 +19,7 @@ data:
   ALLOW_EMPTY_PASSWORD: "yes"
   POSTGRES_HOST: postgres-service
   NEXTCLOUD_TRUSTED_DOMAINS: "127.0.0.1"
-  NEXTCLOUD_ADMIN_USER: "nextcloud"
+  NEXTCLOUD_ADMIN_USER: "devbobs"
 ---
 kind: Deployment
 apiVersion: apps/v1
