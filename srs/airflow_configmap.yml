@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: airflow-config
+data:
+  AIRFLOWCOREEXECUTOR: LocalExecutor
+  AIRFLOWCORESQL_ALCHEMY_CONN: postgresql+psycopg2://postgres:<your_postgres_password>@postgres:5432/postgres
+  AIRFLOWCORELOAD_EXAMPLES: "false"
