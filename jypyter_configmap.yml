@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: jupyter-config
-data:
-  JUPYTER_ENABLE_LAB: "yes"
-  DATABASE_URL: postgresql+psycopg2://postgres:<your_postgres_password>@postgres:5432/postgres
