@@ -13,7 +13,7 @@ kubectl apply -f jupyter-deployment.yml
 '''
 kubectl get pods
 kubectl get services
-'''
+
 ### Доступ к сервисам из кубера
 '''
 minikube service jupyter-service --url
