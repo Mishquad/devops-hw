@@ -6,6 +6,7 @@ spec:
   type: NodePort
   selector:
     app: jupyter
+    component: notebook
   ports:
     - port: 8888
       targetPort: 8888
@@ -14,15 +15,19 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: jupyter-deployment
+  labels:
+    app: jupyter
 spec:
   replicas: 1
   selector:
     matchLabels:
       app: jupyter
+      component: notebook
   template:
     metadata:
       labels:
         app: jupyter
+        component: notebook
     spec:
       containers:
         - name: jupyter
@@ -35,6 +40,18 @@ spec:
           volumeMounts:
             - name: jupyter-storage
               mountPath: /home/jovyan/work
+          livenessProbe:
+            httpGet:
+              path: /api
+              port: 8888
+            initialDelaySeconds: 60
+            periodSeconds: 10
+          readinessProbe:
+            httpGet:
+              path: /api
+              port: 8888
+            initialDelaySeconds: 60
+            periodSeconds: 10
       volumes:
         - name: jupyter-storage
           emptyDir: {}
