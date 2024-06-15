@@ -1,5 +1,11 @@
 # HW-4
 
+## Скрины
+![1](./screens/airflow.jpg)
+![2](./screens/jupyter.jpg)
+![3](./screens/first_screen.jpg)
+![4](./screens/second_screen.jpg)
+
 ## Инструкция по использованию
 ### Применение конфигураций
 
