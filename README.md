@@ -17,8 +17,9 @@
 
 ### Применение конфигураций
 
-`sh
-kubectl apply -f airflow-configmap.yml
-kubectl apply -f airflow-deployment.yml
-kubectl apply -f jupyter-configmap.yml
-kubectl apply -f jupyter-deployment.yml
+```
+- kubectl apply -f airflow-configmap.yml
+- kubectl apply -f airflow-deployment.yml
+- kubectl apply -f jupyter-configmap.yml
+- kubectl apply -f jupyter-deployment.yml
+```
