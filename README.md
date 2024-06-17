@@ -3,7 +3,6 @@
 
 ## Скрины
 ![1](./screens/airflow.jpg)
-![2](./screens/jupyter.jpg)
 ![3](./screens/scre1.png)
 ![3](./screens/scre2.png)
 ![3](./screens/scre3.png)
