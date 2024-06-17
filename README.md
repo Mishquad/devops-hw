@@ -4,14 +4,11 @@
 ## Скрины
 ![1](./screens/airflow.jpg)
 ![2](./screens/jupyter.jpg)
-![3](./screens/first_screen.jpg)
-![4](./screens/second_screen.jpg)
-![Better Version 1](./screens/better_version_1.jpg)
-![Better Version 2](./screens/better_version_2.jpg)
-![Better Version 3](./screens/better_version_3.jpg)
-![Better Version 4](./screens/better_version_4.jpg)
-![Better Version 5](./screens/better_version_5.jpg)
-![Better Version 6](./screens/better_version_6.jpg)
+![3](./screens/scre1.png)
+![3](./screens/scre2.png)
+![3](./screens/scre3.png)
+![3](./screens/scre4.png)
+![3](./screens/scre5.png)
 
 ## Инструкция по использованию
 
