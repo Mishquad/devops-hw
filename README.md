@@ -1,6 +1,6 @@
 
 # HW-4
-Все yml файлы в папке src
+Все yml файлы в папке files
 ## Скрины
 ![1](./screens/airflow.jpg)
 ![3](./screens/scre1.png)
